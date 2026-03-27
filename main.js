@@ -90,3 +90,14 @@ function drawMouseUp() {
 // add function to mouseup event
 // stage.on("mouseup", drawMouseUp);
 window.addEventListener("mouseup", drawMouseUp);
+
+// feature analysis
+// feature : rezising
+// what is the user goal: resize and change shape of particular image
+//  what is the represented model ? image select,  dotted border/box appear around the image, four points on corner
+// how does it behave?
+// select image , dotted box appears, move cursor onto the lines to re shape size of image
+// what is the implemented model?
+//  create a new shape / size when mouse button down and moved , keep the shape / size after mouse button up ,
+// add new shape to layer
+// how does it interact with other features?
